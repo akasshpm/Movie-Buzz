@@ -1,0 +1,749 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+/* main page */
+
+
+.heading  h1{
+    font-family: Cambria;
+    font-weight: 800;
+    text-align: center;
+    background-image: url("./images/bi1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px;
+    color: aliceblue;
+    font-size: 4rem;
+    box-shadow: 0px 0px 15px white;
+}
+
+.content p{
+    background-image: url("./images/bi2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 23px;
+    box-shadow: 0px 0px 15px white;
+}
+
+.im{
+    border-radius: 100px;
+    margin: 20px;
+    transition: transform 450ms;
+}
+
+.poster{
+    background-image: url("./images/bi2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 20px;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.im:hover{
+    transform: scale(1.08);
+    box-shadow: 0px 0px 10px white;
+}
+
+.poster p{
+    margin-bottom: 20px;
+    font-family: Cambria;
+    font-weight: 800;
+}
+
+.poster h1{
+    font-family: Cambria;
+    font-weight: 800;
+}
+
+
+/* jailer movie */
+
+
+.jtitle{
+    font-family: Cambria;
+    font-weight: 800;
+    text-align: center;
+    background-image: url("./images/j2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-size: 5rem;
+    color: black;
+    box-shadow: 0px 0px 15px white;
+}
+
+.jnavigation{
+    text-align:center;
+    background-image: url("./images/j1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px white;
+}
+
+.jnavigation ul li{
+    list-style-type: none;
+    font-family: Arial;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-decoration: underline whitesmoke;
+}
+
+a{
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-decoration: underline whitesmoke;
+}
+
+a:hover{
+    color: blue;
+}
+
+h1{
+    font-family: Arial;
+    font-weight: 800;
+    padding-bottom: 40px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.jgeneral{
+    text-align: center;
+    background-image: url("./images/j5.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: 500;
+    box-shadow: 0px 0px 15px white;
+}
+
+.jplot{
+    text-align: center;
+    background-image: url("./images/j3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: 500;
+    box-shadow: 0px 0px 15px white;
+}
+
+.jcast{
+    background-image: url("./images/j4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: 500;
+    box-shadow: 0px 0px 15px white;
+}
+
+.jbox-office{
+    text-align: center;
+    background-image: url("./images/j6.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    color: gray;
+    font-weight: 500;
+    box-shadow: 0px 0px 15px white;
+}
+
+.jvideo{
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px white;
+    padding: 100px;
+    margin: 100px 200px;
+}
+
+
+
+/* Vikram movie */
+
+
+.vtitle{
+    font-family: Cambria;
+    font-weight: 800;
+    text-align: center;
+    background-image: url("./images/vi1.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-size: 5rem;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.vnavigation{
+    text-align:center;
+    background-image: url("./images/vi2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px white;
+}
+
+.vnavigation ul li{
+    list-style-type: none;
+    font-family: Arial;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-decoration: underline whitesmoke;
+}
+
+a{
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-decoration: underline whitesmoke;
+}
+
+a:hover{
+    color: blue;
+}
+
+h1{
+    font-family: Arial;
+    font-weight: 800;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.vgeneral{
+    text-align: center;
+    background-image: url("./images/vi4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.vplot{
+    text-align: center;
+    background-image: url("./images/vi3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color:whitesmoke;
+    box-shadow: 0px 0px 15px white;
+}
+
+.vcast{
+    background-image: url("./images/vi5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.vbox-office{
+    text-align: center;
+    background-image: url("./images/vi6.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+
+.vvideo{
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px white;
+    padding: 100px;
+    margin: 100px 200px;
+}
+
+
+
+/* K.G.F. */
+
+
+.ktitle{
+    font-family: Cambria;
+    font-weight: 800;
+    text-align: center;
+    background-image: url("./images/k1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-size: 5rem;
+    color:aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.knavigation{
+    text-align:center;
+    background-image: url("./images/k2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px white;
+}
+
+.knavigation ul li{
+    list-style-type: none;
+    font-family: Arial;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-decoration: underline aliceblue;
+}
+
+a{
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-decoration: underline whitesmoke;
+}
+
+a:hover{
+    color: blue;
+}
+
+h1{
+    font-family: Arial;
+    font-weight: 800;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.kgeneral{
+    text-align: center;
+    background-image: url("./images/k3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.kplot{
+    text-align: center;
+    background-image: url("./images/k4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.kcast{
+    background-image: url("./images/k5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.kbox-office{
+    text-align: center;
+    background-image: url("./images/k6.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.kvideo{
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px white;
+    padding: 100px;
+    margin: 100px 200px;
+}
+
+
+
+/* Leo */
+
+
+.ltitle{
+    font-family: Cambria;
+    font-weight: 800;
+    text-align: center;
+    background-image: url("./images/l1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-size: 5rem;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.lnavigation{
+    text-align:center;
+    background-image: url("./images/L2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px white;
+}
+
+.lnavigation ul li{
+    list-style-type: none;
+    font-family: Arial;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-decoration: underline whitesmoke;
+}
+
+a{
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-decoration: underline whitesmoke;
+}
+
+a:hover{
+    color: blue;
+}
+
+h1{
+    font-family: Arial;
+    font-weight: 800;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.lgeneral{
+    text-align: center;
+    background-image: url("./images/L3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.lplot{
+    text-align: center;
+    background-image: url("./images/L4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.lcast{
+    background-image: url("./images/L5.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.lbox-office{
+    text-align: center;
+    background-image: url("./images/L6.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    box-shadow: 0px 0px 15px white;
+}
+
+.lvideo{
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px white;
+    padding: 100px;
+    margin: 100px 200px;
+}
+
+
+
+/* Styles for mobile phones (max-width: 599px) */
+@media (max-width: 599px) {
+
+    /* main page */
+
+    .heading{
+        max-width: 100%;
+    }
+    .heading h1{
+        font-size: 1rem;
+    }
+    .content p{
+        font-size: 1rem;
+    }
+    .poster{
+        padding: 0;
+    }
+
+    /* leo movie */
+
+    .ltitle{
+        margin: 25px;
+        padding: 10px;
+    }
+    .lnavigation{
+        margin: 25px;
+        padding: 10px;
+    }
+    .lgeneral{
+        margin: 25px;
+        padding: 10px;
+    }
+    .lplot{
+        margin: 25px;
+        padding: 10px;
+    }
+    .lcast{
+        margin: 25px;
+        padding: 10px;
+    }
+    .lcast ol{
+        padding-left:15px;
+    }
+    .lbox-office{
+        margin: 25px;
+        padding: 10px;
+    }
+    .lvideo{
+        margin: 25px;
+        padding: 10px;
+    }
+    .vidd{
+        width: 300px;
+    }
+    .lgeneral{
+        background-position: center;
+    }
+
+    /* kgf movie */
+
+.ktitle{
+    margin: 25px;
+    padding: 10px;
+}
+.knavigation{
+    margin: 25px;
+    padding: 10px;
+}
+.kgeneral{
+    margin: 25px;
+    padding: 10px;
+}
+.kplot{
+    margin: 25px;
+    padding: 10px;
+    background-position: -150px;
+}
+.kcast{
+    margin: 25px;
+    padding: 10px;
+}
+.kcast ol{
+    padding-left:15px;
+}
+.kbox-office{
+    margin: 25px;
+    padding: 10px;
+    background-position: center;
+}
+.kvideo{
+    margin: 25px;
+    padding: 10px;
+}
+.vidd{
+    width: 300px;
+}
+.kgeneral{
+    background-position: center;
+}
+
+/* jailer */
+
+.jtitle{
+    margin: 25px;
+    padding: 10px;
+}
+.jnavigation{
+    margin: 25px;
+    padding: 10px;
+}
+.jgeneral{
+    margin: 25px;
+    padding: 10px;
+}
+.jplot{
+    margin: 25px;
+    padding: 10px;
+}
+.jcast{
+    margin: 25px;
+    padding: 10px;
+}
+.jcast ol{
+    padding-left:15px;
+}
+.jbox-office{
+    margin: 25px;
+    padding: 10px;
+    background-position: center;
+}
+.jvideo{
+    margin: 25px;
+    padding: 10px;
+}
+.vidd{
+    width: 300px;
+}
+.jgeneral{
+    background-position: center;
+}
+
+/* vikram movie */
+
+.vtitle{
+    margin: 25px;
+    padding: 10px;
+}
+.vnavigation{
+    margin: 25px;
+    padding: 10px;
+}
+.vgeneral{
+    margin: 25px;
+    padding: 10px;
+}
+.vplot{
+    margin: 25px;
+    padding: 10px;
+}
+.vcast{
+    margin: 25px;
+    padding: 10px;
+}
+.vcast ol{
+    padding-left:15px;
+}
+.vbox-office{
+    margin: 25px;
+    padding: 10px;
+    background-position: center;
+}
+.vvideo{
+    margin: 25px;
+    padding: 10px;
+}
+.vidd{
+    width: 300px;
+}
+.vgeneral{
+    background-position: center;
+}
+
+}
+
+
